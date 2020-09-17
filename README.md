@@ -14,6 +14,9 @@
 ### Overview
 `tmux config file and scripts for easy use`
 
+### Prerequisite
+subscribe [Taste like Developer](https://www.youtube.com/channel/UCpY9pb4-S0PwCJBp2r6nOvg)
+
 ### Contributor(s)
 - **Taste like Developer** - [Youtube](https://www.youtube.com/channel/UCpY9pb4-S0PwCJBp2r6nOvg)
 
@@ -28,6 +31,8 @@ configuration file, utility scrips
 
 ### Build (or Installation)
 ```sh
+git clone https://github.com/devtaste/tmux-config
+cd tmux-config
 sudo run install.sh
 ```
 
