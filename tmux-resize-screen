@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+cmd="$(tmux display -p '#{pane_current_command}')"
+cmd="$(basename "${cmd,,*}")"
+
+tmux resize-pane -Z
+if [ "${cmd%m}" = "vi" ]; then
+  sleep 0.05
+  tmux send-keys C-w =
+fi
