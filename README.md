@@ -6,7 +6,7 @@
 		<br />
 		Taste like Developer
 	</h2>
-	<p align="center">:octocat: tmux-config :octocat:</p>
+	<p align="center">:octocat: tmux-config</p>
 </div>
 
 ---
