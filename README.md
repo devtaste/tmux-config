@@ -33,7 +33,7 @@ configuration file, utility scrips
 ```sh
 git clone https://github.com/devtaste/tmux-config
 cd tmux-config
-sudo run install.sh
+sudo sh install.sh
 ```
 
 ### Usage
